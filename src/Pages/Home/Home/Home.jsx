@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import photo from './Photo of Wasey Rahman for CV.jpg';
 import AboutMe from '../AboutMe/AboutMe';
+import ContactMeForm from '../ContactMeForm/ContactMeForm';
 
 const Home = () => {
   const [showAnimation, setShowAnimation] = useState(false);
@@ -48,6 +49,7 @@ const Home = () => {
      
         </div>
         <AboutMe></AboutMe>
+        <ContactMeForm></ContactMeForm>
     </div>
   );
 };

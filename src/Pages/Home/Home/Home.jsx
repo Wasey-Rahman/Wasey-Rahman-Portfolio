@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import photo from './Photo of Wasey Rahman for CV.jpg';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Home = () => {
   const [showAnimation, setShowAnimation] = useState(false);
@@ -46,6 +47,7 @@ const Home = () => {
         </motion.div>
      
         </div>
+        <AboutMe></AboutMe>
     </div>
   );
 };

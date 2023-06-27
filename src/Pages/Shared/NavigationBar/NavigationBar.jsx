@@ -1,6 +1,16 @@
 import React from 'react';
-
+import resumePDF from './Resume of Wasey Rahman.pdf'
 const NavigationBar = () => {
+    const handleDownloadResume = () => {
+        // Create a temporary link element
+        const link = document.createElement('a');
+        link.href = resumePDF;
+        link.download = 'resume.pdf';
+    
+        // Simulate a click event on the link to trigger the download
+        link.click();
+      };
+    
     return (
         <>
            <div className="navbar bg-pink-700">
@@ -26,7 +36,7 @@ const NavigationBar = () => {
   </div>
   <div className="navbar-end">
   
-    <a className="btn ">Resume</a>
+    <a className="btn " onClick={handleDownloadResume}>Resume</a>
  
   </div>
   

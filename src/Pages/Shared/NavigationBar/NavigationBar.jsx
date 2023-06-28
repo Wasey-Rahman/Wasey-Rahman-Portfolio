@@ -1,4 +1,7 @@
 import React from 'react';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import resumePDF from './Resume of Wasey Rahman.pdf'
 const NavigationBar = () => {
     const handleDownloadResume = () => {
@@ -36,7 +39,7 @@ const NavigationBar = () => {
   </div>
   <div className="navbar-end">
   
-    <a className="btn " onClick={handleDownloadResume}>Resume</a>
+    <a className="btn " onClick={handleDownloadResume}><FontAwesomeIcon icon={faDownload} />Resume</a>
  
   </div>
   

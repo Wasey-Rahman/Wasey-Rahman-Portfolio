@@ -88,7 +88,7 @@ Cantonment, Dhaka </p>
                 ></textarea>
               </div>
              
-              <button className="btn btn-outline"> Send Message</button>
+              <button className="btn btn-outline">Send Message</button>
                
               
             </form>

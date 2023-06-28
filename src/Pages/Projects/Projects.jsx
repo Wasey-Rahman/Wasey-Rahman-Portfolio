@@ -19,12 +19,17 @@ import image_seventeen from './PF7.png'
 import image_eighteen from './PF8.png'
 import image_nineteen from './PF9.png'
 import image_twenty from './PF10.png'
+import { Helmet } from 'react-helmet';
 
 
 const Projects = () => {
     return (
         <>
-        <h1 className='font-extrabold text-5xl text-pink-500 text-center mt-8'>Projects</h1>
+        <Helmet>
+        <title>Wasey-Rahman-Portfolio|Projects</title>
+        
+      </Helmet>
+        <h1 className='font-extrabold text-5xl text-pink-500 text-center mt-8 mb-10'>Projects</h1>
         <div>
             
             <h2 className='font-extrabold text-2xl'>1)Job Network</h2><br />
@@ -121,7 +126,7 @@ const Projects = () => {
         Live-site: https://poly-fusion.web.app/ <br/>
         Client-Code:https://github.com/Wasey-Rahman/Poly-Fusion-Client <br/>
         Server-Code:https://github.com/Wasey-Rahman/Poly-Fusion-Server <br/>
-        <div className="carousel w-1/3">
+        <div className="carousel w-1/3 mb-10">
   <div id="slide11" className="carousel-item relative w-full">
     <img src={image_eleven} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

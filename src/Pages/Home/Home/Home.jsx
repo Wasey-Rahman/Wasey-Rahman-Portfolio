@@ -4,6 +4,7 @@ import photo from './Photo of Wasey Rahman for CV.jpg';
 import AboutMe from '../AboutMe/AboutMe';
 import ContactMeForm from '../ContactMeForm/ContactMeForm';
 import Skills from '../Skills/Skills';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   const [showAnimation, setShowAnimation] = useState(false);
@@ -14,6 +15,11 @@ const Home = () => {
  
 
   return (
+    <>
+    <Helmet>
+        <title>Wasey-Rahman-Portfolio|Home</title>
+        
+      </Helmet>
     <div className='bg-white'>
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-8">
         <motion.div
@@ -53,6 +59,7 @@ const Home = () => {
         <Skills></Skills>
         <ContactMeForm></ContactMeForm>
     </div>
+    </>
   );
 };
 

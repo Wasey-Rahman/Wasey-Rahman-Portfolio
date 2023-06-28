@@ -78,7 +78,7 @@ const Projects = () => {
   <div id="slide5" className="carousel-item relative w-full">
     <img src={image_five} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-      <a href="#slide9" className="btn btn-ghost">❮</a> 
+      <a href="#slide10" className="btn btn-ghost">❮</a> 
       <a href="#slide6" className="btn btn-ghost">❯</a>
     </div>
   </div> 
